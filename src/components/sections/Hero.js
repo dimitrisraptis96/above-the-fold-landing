@@ -92,6 +92,13 @@ const Hero = ({
                   </Button> */}
                 </ButtonGroup>
               </div>
+              <p
+                className="m-0 mb-32 reveal-from-bottom"
+                data-reveal-delay="400"
+                style={{ fontSize: "12px", marginTop: "1rem" }}
+              >
+                Soon available for Figma and Adobe XD
+              </p>
             </div>
           </div>
           <div

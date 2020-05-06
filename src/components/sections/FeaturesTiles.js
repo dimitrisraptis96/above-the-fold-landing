@@ -43,9 +43,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: "Build up the whole picture",
+    title: "Supercharge your process",
     paragraph:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+      "Above the Fold plugin marks the above the fold section for all of your selected Artboards. In that way, you can be safe that your Call to Action will be visible when the page loads.",
   };
 
   return (
@@ -67,11 +67,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Robust Results</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    The Above the Fold areas are calculated based on the results
+                    of an extensive research about the most common viewport
+                    dimensions.
                   </p>
                 </div>
               </div>
@@ -93,11 +93,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Instant Analysis</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Select the Artboards you want to analyze and our plugin
+                    measures their dimensions and marks the Above the Fold
+                    section instantly.
                   </p>
                 </div>
               </div>
@@ -119,11 +119,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Bulk Testing</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    You are able to run the analysis for a single Artboard, or
+                    select as many of them you want. The results will be visible
+                    as an extra layer on top of them.
                   </p>
                 </div>
               </div>
@@ -134,19 +134,18 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/feature-tile-icon-04.svg")}
-                      alt="Features tile icon 04"
+                      src={require("./../../assets/images/feature-tile-icon-06.svg")}
+                      alt="Features tile icon 06"
                       width={64}
                       height={64}
                     />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Embrace Workflow</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    No need to check the leave your design flow! Run the plugin
+                    with a single click and never distract your focus again.
                   </p>
                 </div>
               </div>
@@ -168,11 +167,12 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Danger Zone</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Screen and viewport sizes are not the same! Web Browsers
+                    usually hide parts of your screen with their navigation
+                    elements. The danger zone is a safe offset taking into
+                    account these elements.
                   </p>
                 </div>
               </div>
@@ -186,19 +186,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/feature-tile-icon-06.svg")}
-                      alt="Features tile icon 06"
+                      src={require("./../../assets/images/feature-tile-icon-04.svg")}
+                      alt="Features tile icon 04"
                       width={64}
                       height={64}
                     />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Peace of Mind</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Important call to action element must always be visible at
+                    the 1st screenful. Above the Fold plugin pinpoints the safe
+                    area for them.
                   </p>
                 </div>
               </div>
