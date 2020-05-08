@@ -47,11 +47,19 @@ const Cta = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">Want to optimize designs with AI?</h3>
+            <h3 className="m-0">Want to optimize your designs with AI?</h3>
           </div>
 
           <div className="cta-action">
-            <Button tag="a" color="light" wideMobile href="https://cruip.com/">
+            <Button
+              tag="a"
+              color="light"
+              wideMobile
+              href="https://www.visualeyes.design/about/?ref=above-the-fold-plugin"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ borderRadius: "4px" }}
+            >
               Visit VisualEyes
             </Button>
 

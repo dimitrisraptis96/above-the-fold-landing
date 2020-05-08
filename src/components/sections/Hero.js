@@ -3,9 +3,10 @@ import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
 import Button from "../elements/Button";
+import DownloadButton from "../custom/DownloadButton";
 import Image from "../elements/Image";
 import Modal from "../elements/Modal";
-
+import { SketchIcon, FigmaIcon, AdobeXDIcon } from "../custom/Icons";
 const propTypes = {
   ...SectionProps.types,
 };
@@ -68,20 +69,12 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Make sure all your important elements are in your first
-                screenful. Above the Fold supports Desktop, Mobile and Tablet
-                viewports.
+                Make sure all your important elements are in the 1st screenful.
+                Above the Fold support Desktop, Mobile and Tablet viewports.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button
-                    tag="a"
-                    color="primary"
-                    wideMobile
-                    href="https://cruip.com/"
-                  >
-                    Download Plugin
-                  </Button>
+                  <DownloadButton />
                   {/* <Button
                     tag="a"
                     color="dark"
@@ -97,14 +90,45 @@ const Hero = ({
                 data-reveal-delay="400"
                 style={{ fontSize: "12px", marginTop: "1rem" }}
               >
-                Soon available for Figma and Adobe XD
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  Soon available for{" "}
+                  <FigmaIcon style={{ margin: "0.5rem" }} size={16} />
+                  and
+                  <AdobeXDIcon style={{ margin: "0.5rem" }} size={16} />
+                </div>
+                <a
+                  href="https://draptis.typeform.com/to/RiaAZD"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    color: "rgba(255,255,255,0.2)",
+                  }}
+                >
+                  Join the waiting list
+                  <Image
+                    src={require("./../../assets/images/external-link-outline.svg")}
+                    alt="Open"
+                    width={16}
+                    height={16}
+                    style={{ width: "16px", margin: "0 0 0 .5rem" }}
+                  />
+                </a>
               </p>
             </div>
           </div>
           <div
             className="hero-figure reveal-from-bottom illustration-element-01"
-            data-reveal-value="20px"
-            data-reveal-delay="800"
+            data-reveal-value="-20px"
+            data-reveal-delay="1200"
           >
             {/* <a
               data-video="https://player.vimeo.com/video/174002812"

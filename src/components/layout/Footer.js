@@ -39,7 +39,11 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
             <FooterNav />
             <div className="footer-copyright">
               Made by{" "}
-              <a href="https://www.visualeyes.design/?ref=above-the-fold-plugin">
+              <a
+                href="https://www.visualeyes.design/about/?ref=above-the-fold-plugin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 VisualEyes
               </a>
               . All right reserved

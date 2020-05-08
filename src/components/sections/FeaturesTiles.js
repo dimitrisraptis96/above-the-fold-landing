@@ -144,8 +144,9 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Embrace Workflow</h4>
                   <p className="m-0 text-sm">
-                    No need to check the leave your design flow! Run the plugin
-                    with a single click and never distract your focus again.
+                    No need to check common dimensions online and destroy your
+                    design flow! Run the plugin with a single click and never
+                    distract your focus again.
                   </p>
                 </div>
               </div>
@@ -198,7 +199,7 @@ const FeaturesTiles = ({
                   <p className="m-0 text-sm">
                     Important call to action element must always be visible at
                     the 1st screenful. Above the Fold plugin pinpoints the safe
-                    area for them.
+                    area for them so you don't have to worry.
                   </p>
                 </div>
               </div>

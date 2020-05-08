@@ -4,6 +4,7 @@ import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
 import Button from "../elements/Button";
+import DownloadButton from "../custom/DownloadButton";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -121,16 +122,7 @@ const Header = ({
                   </ul> */}
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
-                      <li>
-                        <Button
-                          tag="a"
-                          color="primary"
-                          wideMobile
-                          href="https://cruip.com/"
-                        >
-                          Download Plugin
-                        </Button>
-                      </li>
+                      <li>{/* <DownloadButton /> */}</li>
                     </ul>
                   )}
                 </div>
