@@ -128,9 +128,9 @@ const Hero = ({
             </div>
           </div>
           <div
-            className="hero-figure reveal-from-bottom illustration-element-01"
-            data-reveal-distance="20px"
-            data-reveal-delay="1200"
+            className="hero-figure  illustration-element-01"
+            // data-reveal-distance="20px"
+            // data-reveal-delay="1200"
           >
             <a
               // data-video="https://player.vimeo.com/video/174002812"
