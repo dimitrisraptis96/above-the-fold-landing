@@ -10,11 +10,12 @@
   padding-right: 16px;
   border-radius: 8px;
   background-color: get-color(primary, 3);
-  background-color: linear-gradient(#454afd, #b5b7fe);
-  background-image: url(../../../images/cta-illustration.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right bottom;
+  background-image: url(../../../images/cta-illustration.svg);
+  background-image: url(../../../images/cta-illustration.svg),
+    linear-gradient(to right, #e3e4fe, #b5b7fe);
 }
 
 @include media(">medium") {

@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../elements/Button";
 import { SketchIcon } from "./Icons";
 
-const DownloadButton = ({}) => {
+const DownloadButton = ({ style }) => {
   return (
     <Button
       tag="a"
@@ -13,9 +13,13 @@ const DownloadButton = ({}) => {
         background: "#FEEEB7",
         color: "#9A5B00",
         fontWeight: "bold",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        ...style,
       }}
     >
-      <SketchIcon size={20} style={{ marginRight: ".5rem" }} />
+      <SketchIcon size={20} style={{ margin: "0 .5rem 0 0" }} />
       Download Plugin
     </Button>
   );

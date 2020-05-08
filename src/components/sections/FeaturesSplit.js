@@ -50,13 +50,13 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: "Workflow that just works",
+    title: "Embrace your process",
     paragraph:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+      "Above the Fold plugin marks the above the fold section for all of your selected Artboards. In that way, you can be safe that your Call to Action will be visible when the page loads.",
   };
 
   return (
-    <section {...props} className={outerClasses}>
+    <section {...props} className={outerClasses} id="steps">
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
@@ -136,7 +136,7 @@ const FeaturesSplit = ({
                   extra layer on top of each Artboard. Now, you can review the
                   visibility of your elements!
                 </p>
-                <DownloadButton />
+                <DownloadButton style={{ margin: "auto" }} />
               </div>
               <div
                 className={classNames(

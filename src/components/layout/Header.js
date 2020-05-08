@@ -108,21 +108,48 @@ const Header = ({
                 className={classNames("header-nav", isActive && "is-active")}
               >
                 <div className="header-nav-inner">
-                  {/* <ul
+                  <ul
                     className={classNames(
                       "list-reset text-xs",
                       navPosition && `header-nav-${navPosition}`
                     )}
                   >
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
-                        Help
-                      </Link>
+                      <a
+                        href="#how"
+                        onClick={closeMenu}
+                        style={{ cursor: "pointer" }}
+                      >
+                        How It Works
+                      </a>
                     </li>
-                  </ul> */}
+                    <li>
+                      <a
+                        href="#steps"
+                        onClick={closeMenu}
+                        style={{ cursor: "pointer" }}
+                      >
+                        Features
+                      </a>
+                    </li>
+                  </ul>
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
-                      <li>{/* <DownloadButton /> */}</li>
+                      <li>
+                        <Button
+                          tag="a"
+                          color="light"
+                          wideMobile
+                          href="https://cruip.com/"
+                          style={{
+                            background: "transparent",
+                            border: "solid 2px white",
+                            color: "white",
+                          }}
+                        >
+                          Download Plugin
+                        </Button>
+                      </li>
                     </ul>
                   )}
                 </div>

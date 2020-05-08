@@ -49,7 +49,7 @@ const FeaturesTiles = ({
   };
 
   return (
-    <section {...props} className={outerClasses}>
+    <section {...props} className={outerClasses} id="features">
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />

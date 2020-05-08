@@ -62,7 +62,9 @@ const Hero = ({
               data-reveal-delay="200"
             >
               Above the Fold plugin for{" "}
-              <span className="text-color-primary">Sketch</span>
+              <span className="text-color-primary" style={{ color: "#FEEEB7" }}>
+                Sketch
+              </span>
             </h1>
             <div className="container-xs">
               <p
@@ -110,7 +112,7 @@ const Hero = ({
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    color: "rgba(255,255,255,0.2)",
+                    color: "rgba(255,255,255,0.3)",
                   }}
                 >
                   Join the waiting list
@@ -127,29 +129,31 @@ const Hero = ({
           </div>
           <div
             className="hero-figure reveal-from-bottom illustration-element-01"
-            data-reveal-value="-20px"
+            data-reveal-distance="20px"
             data-reveal-delay="1200"
           >
-            {/* <a
-              data-video="https://player.vimeo.com/video/174002812"
+            <a
+              // data-video="https://player.vimeo.com/video/174002812"
+              data-video="https://www.youtube.com/embed/sLgSEIOgihA"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
-            > */}
-            <Image
-              className="has-shadow"
-              src={require("./../../assets/images/hero.jpg")}
-              alt="Hero"
-              width={896}
-              height={504}
-            />
-            {/* </a> */}
+            >
+              <Image
+                className="has-shadow"
+                src={require("./../../assets/images/hero.jpg")}
+                alt="Hero"
+                width={896}
+                height={504}
+              />
+            </a>
           </div>
           <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://www.youtube.com/embed/sLgSEIOgihA"
+            // video="https://player.vimeo.com/video/174002812"
             videoTag="iframe"
           />
         </div>
